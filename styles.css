@@ -1,0 +1,162 @@
+div{
+  margin:0;
+  padding:0;
+  border:0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size:100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  text-align: center;
+  margin:auto;
+  margin-top:150px;
+  padding: 50px;
+}
+
+.navigation{
+  background-color: #f1f1f1;
+  height: 50px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.logo {
+  font-size:10px;
+  font-style: italic;
+  color:#4285f4;
+  padding-right:25px;
+}
+
+.logo-subtext{
+  font-size:16px;
+  color:#4285f4;
+  position:relative;
+  left:215px;
+  white-space: nowrap;
+}
+
+.searchbar {
+  border-radius: 25px;
+  margin-top:30px;
+  width: 500px;
+  height: 40px;
+  padding-left:20px;
+  padding-right:20px;
+  border: 1px solid #dfe1e5;
+}
+
+input:focus{
+  outline:none;
+}
+.searchbutton {
+  margin-top:30px;
+}
+
+.button {
+  margin:5px;
+  border: 1px solid #f8f9fa;
+  background-color:#f8f9fa;
+  padding: 0 15px;
+  border-radius:5px;
+  height: 35px;
+}
+
+.head{
+  color:red;
+  font-size:20px;
+  margin: 25px 35px;
+}
+
+.body{
+  margin-top: 40px;
+  margin-left: 45px;
+  width: 95%;
+}
+
+.a_container{
+  width: 100%;
+  clear: both;
+}
+
+.a_container .temp{
+  clear:both;
+}
+
+.a_container .a_smaller_container{
+  float: left;
+  display:inline-block;
+  min-width: 170px;
+  width: 16%;
+  font-size:16px;
+  min-height: 42px;
+  font-weight: 500;
+  color:#333;
+  vertical-align: middle;
+
+}
+
+.a_label_container{
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.a_container .a_left_container{
+  float: left;
+  display: inline-block;
+  min-width: 170px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.a_container .a_right_container{
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.a_input_container{
+  padding-right: 15px;
+}
+
+.a_container .a_left_container input[type=text]{
+  width: 100%;
+  text-align: left;
+}
+
+.a_input{
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size:13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+.a_button{
+  float: right;
+  margin: 10px 0;
+  padding: 0 12px;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color:#fff;
+  border-radius: 2px;
+  cursor:default;
+  font-size:11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
